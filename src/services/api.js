@@ -1,4 +1,5 @@
-const BASE_URL = "http://localhost:4000/api/v1"
+require('dotenv').config();
+const BASE_URL = process.env.BASE_URL;
 
 // AUTH ENDPOINTS
 export const endpoints = {
